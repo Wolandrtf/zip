@@ -21,5 +21,9 @@ describe('Zip', function() {
   it('should return correct value, for test case #5', function() {
     assert.equal(zip('a'), 'a');
   });
+
+  it('should return correct value, for test case #6', function() {
+    assert.equal(zip('abcd'), 'a-d');
+  });
   
 });
